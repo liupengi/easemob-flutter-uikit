@@ -1,6 +1,6 @@
 import 'package:easemob_uikit/widget/me_view.dart';
-import 'package:em_chat_uikit/ui/views/contacts_view.dart';
-import 'package:em_chat_uikit/ui/views/conversations_view.dart';
+import 'package:em_chat_uikit/chat_uikit.dart';
+
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
