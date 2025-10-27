@@ -35,15 +35,17 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-  em_chat_uikit: 2.2.0
+  em_chat_uikit:
+    git:
+      url: https://github.com/easemob/chatuikit-flutter.git
+      ref: 2.3.0
 
   # record: ^5.1.2  # Commented out due to compatibility issues
   audio_waveforms: ^1.0.6 # Alternative for audio recording
 dependency_overrides:
   chat_uikit_keyboard_panel: 0.1.2
   record: 5.1.1 # Use a slightly older version
-  record_android:
-    path: ./plugins/record_android_fixed
+  record_android: 1.2.1
   record_linux: 1.2.1 # Use newer compatible version
   im_flutter_sdk: 4.15.1
 dev_dependencies:

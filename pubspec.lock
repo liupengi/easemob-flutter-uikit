@@ -180,11 +180,12 @@ packages:
   em_chat_uikit:
     dependency: "direct main"
     description:
-      name: em_chat_uikit
-      sha256: f8c71dd6da3401b7691e6b81ae3d3034240ae7c85eec672a8227fc925efeaed5
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "2.2.0"
+      path: "."
+      ref: "2.3.0"
+      resolved-ref: ece5235ee61e6c730462a67a046c7fab01378e5e
+      url: "https://github.com/easemob/chatuikit-flutter.git"
+    source: git
+    version: "2.3.0-dev.1"
   fake_async:
     dependency: transitive
     description:
@@ -592,10 +593,11 @@ packages:
   record_android:
     dependency: "direct overridden"
     description:
-      path: "plugins/record_android_fixed"
-      relative: true
-    source: path
-    version: "1.4.0"
+      name: record_android
+      sha256: "533ce8afa4e47da5c97ea971cde0f0efec28c9bedfac6257a7a28491d34e07ea"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.2.1"
   record_darwin:
     dependency: transitive
     description:
@@ -624,10 +626,10 @@ packages:
     dependency: transitive
     description:
       name: record_web
-      sha256: "4f0adf20c9ccafcc02d71111fd91fba1ca7b17a7453902593e5a9b25b74a5c56"
+      sha256: "20ac10d56514cb9f8cecc8f3579383084fdfb43b0d04e05a95244d0d76091d90"
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "1.2.0"
+    version: "1.2.1"
   record_windows:
     dependency: transitive
     description:

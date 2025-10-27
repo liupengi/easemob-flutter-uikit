@@ -1,5 +1,5 @@
 import 'package:easemob_uikit/chat_presenter.dart';
-import 'package:em_chat_uikit/chat_uikit_service/chat_uikit_service.dart';
+import 'package:em_chat_uikit/chat_uikit/src/chat_uikit_service/chat_uikit_service.dart';
 import 'package:flutter/material.dart';
 
 import 'home_page.dart';
