@@ -337,10 +337,10 @@ packages:
     dependency: "direct overridden"
     description:
       name: im_flutter_sdk
-      sha256: "952bd7a4846d9645adf6bf67c781573aba2825e12bbedfa7bb9f8b234bb1410b"
+      sha256: b946f2906198d30f2f54fc162169febf0973aae3738f287a2c17a4832abc1cc5
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "4.15.1"
+    version: "4.13.0"
   im_flutter_sdk_android:
     dependency: transitive
     description:
@@ -592,10 +592,11 @@ packages:
   record_android:
     dependency: "direct overridden"
     description:
-      path: "plugins/record_android_fixed"
-      relative: true
-    source: path
-    version: "1.4.0"
+      name: record_android
+      sha256: "533ce8afa4e47da5c97ea971cde0f0efec28c9bedfac6257a7a28491d34e07ea"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.2.1"
   record_darwin:
     dependency: transitive
     description:
